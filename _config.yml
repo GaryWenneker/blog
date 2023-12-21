@@ -1,14 +1,14 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Gary Wenneker's Blog
+title: Gary Wenneker's Blog
+description: Thoughts, stories and ideas
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
+  - sitecore
 show_hero: true
 menu:
   - title: Home
@@ -19,7 +19,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: gary@wenneker.org
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -40,7 +40,7 @@ medium_username: medium_username
 # Posts Settings
 show_time_bar: true
 show_modal_on_exit: false
-show_modal_on_finish_post: true
+show_modal_on_finish_post: false
 two_columns_layout: true
 
 

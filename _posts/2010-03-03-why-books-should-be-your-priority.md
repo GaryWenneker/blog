@@ -1,5 +1,5 @@
 ---
-date: 2018-11-22 12:26:40
+date: 1118-11-22 12:26:40
 layout: post
 title: Why books should be your priority?
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -10,7 +10,7 @@ category: life
 tags:
   - books
   - read
-author: mranderson
+author: garywenneker
 paginate: true
 ---
 

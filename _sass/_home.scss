@@ -32,6 +32,7 @@
 }
 
 .box-item {
+  color: #fff;
   flex: 1 0 $itemMinWidth;
   margin: 0 0 rem(30px);
   display: inline-block;
@@ -71,7 +72,7 @@
     .box-body {
       time,
       p {
-        color: $accentDark;
+        color: #fff;
       }
 
       .cover {
@@ -130,7 +131,7 @@
 
     p {
       margin: 0 0 rem(30px);
-      color: darken($lightGray, 20%);
+      color: darken(#fff, 20%);
       font-size: rem(17px);
       line-height: rem(26px);
     }
