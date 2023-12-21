@@ -2,17 +2,6 @@ $theme: (
   themeColor: #ff0a16,
   primaryDark: #141414,
   accentDark: #ffffff,
-  lightGray: #444,
-  texts: #ffffff
+  lightGray: #f2f2f2,
+  texts: #cacaca
 );
-
-body {
-  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 21px;
-  font-weight: 300;
-  color: #ddd;
-  background: #333;
-  border-top: 5px solid #222;
-  box-shadow: inset 0 3px 30px rgba(0,0,0,.3);
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}

@@ -1,3 +1,8 @@
+.post-page {
+  background-color: #141414;
+  color: #cacaca;
+}
+
 .post {
   position: relative;
   top: rem(30px);
@@ -68,6 +73,7 @@
   iframe {
     @include center(rem(800px));
     @include mainFont(400);
+    color: #fff;
     font-size: rem(17px);
     line-height: rem(30px);
     letter-spacing: 0.025rem;
@@ -234,6 +240,8 @@
 
   blockquote {
     @include center(rem(730px));
+    background-color: rgb(22, 27, 34);
+    color: rgb(47, 129, 247);
     border-left: rem(5px) solid $texts;
     padding: 0 rem(10px);
     margin: rem(30px) auto;
@@ -247,7 +255,7 @@
 
     p {
       font-size: rem(17px);
-      color: rgba(0, 0, 0, 0.6);
+      color: rgb(47, 129, 247);
       margin: 0;
       @include media(">=sm") {
         font-size: rem(20px);
