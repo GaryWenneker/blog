@@ -58,7 +58,7 @@ And that's what I did. `useState` manages state within your component and does n
 
 React Hookz can be set up with just a few lines of code:
 
-```js
+```
     const useReactHookz = ReactHookz(React, initialState, actions);
     export default useReactHookz;
 ```
