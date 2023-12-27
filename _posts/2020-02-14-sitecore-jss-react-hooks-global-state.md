@@ -1,13 +1,13 @@
 ---
-layout: post
-title: 'Sitecore JSS: React Hooks Global State'
-description: >-
-  When developing in Sitecore JSS I am always happy to do that in React. Most of the React components I&#x27;ve been building are small ones, rendering the context of that data. That&#x27;s not special at all and for this I use the React Function Component. It has no side effects.
 date: 2020-02-14 08:21:12.000000000 +01:00
-image: >-
-  https://images.unsplash.com/photo-1566937169390-7be4c63b8a0e?ixlib&#x3D;rb-1.2.1&amp;q&#x3D;80&amp;fm&#x3D;jpg&amp;crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;w&#x3D;1080&amp;fit&#x3D;max&amp;ixid&#x3D;eyJhcHBfaWQiOjExNzczfQ
-optimized_image: >-
-  https://images.unsplash.com/photo-1566937169390-7be4c63b8a0e?ixlib&#x3D;rb-1.2.1&amp;q&#x3D;80&amp;fm&#x3D;jpg&amp;crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;w&#x3D;1080&amp;fit&#x3D;max&amp;ixid&#x3D;eyJhcHBfaWQiOjExNzczfQ
+layout: post
+title: "Sitecore JSS: React Hooks Global State"
+description: When developing in Sitecore JSS I am always happy to do that in
+  React. Most of the React components I&#x27;ve been building are small ones,
+  rendering the context of that data. That&#x27;s not special at all and for
+  this I use the React Function Component. It has no side effects.
+image: https://images.unsplash.com/photo-1566937169390-7be4c63b8a0e?ixlib&#x3D;rb-1.2.1&amp;q&#x3D;80&amp;fm&#x3D;jpg&amp;crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;w&#x3D;1080&amp;fit&#x3D;max&amp;ixid&#x3D;eyJhcHBfaWQiOjExNzczfQ
+optimized_image: https://images.unsplash.com/photo-1566937169390-7be4c63b8a0e?ixlib&#x3D;rb-1.2.1&amp;q&#x3D;80&amp;fm&#x3D;jpg&amp;crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;w&#x3D;1080&amp;fit&#x3D;max&amp;ixid&#x3D;eyJhcHBfaWQiOjExNzczfQ
 category: blog
 tags:
   - sitecore
@@ -40,7 +40,7 @@ For this to work we need Side Effects:
 
 > "Side Effect" is not a react-specific term. It is a general concept about behaviours of functions. A function is said to have side effect if it trys to modify anything outside its body. For example, if it modidifies a global variable, then it is a side effect.
 
-These side effects can be used in React Function Components using Hooks. Hooks are a new addition in React 16.8\. They let you use state and other React features without writing a class. This eliminates the [Wrapper Hell](https://reactjs.org/docs/hooks-intro.html#its-hard-to-reuse-stateful-logic-between-components) and better optimization and smaller bundles.
+These side effects can be used in React Function Components using Hooks. Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. This eliminates the [Wrapper Hell](https://reactjs.org/docs/hooks-intro.html#its-hard-to-reuse-stateful-logic-between-components) and better optimization and smaller bundles.
 
 ## State and Component Behavior
 
@@ -59,7 +59,7 @@ And that's what I did. `useState` manages state within your component and does n
 React Hookz can be set up with just a few lines of code:
 
 ```js
-    const useReactHookz `= ReactHookz(React, initialState, actions);
+    const useReactHookz = ReactHookz(React, initialState, actions);
     export default useReactHookz;
 ```
 
@@ -137,13 +137,13 @@ React Hookz on the other hand allows you to provide a callback function!
     export default Counter;
 ```
 
-The greatest of it all is that it all is fully typed! Full intellisense :-) Get the code here: [https://github.com/GaryWenneker/react-hookz](https://github.com/GaryWenneker/react-hookz) or pull down the NPM package: [https://www.npmjs.com/package/react-hookz](https://www.npmjs.com/package/react-hookz)
+The greatest of it all is that it all is fully typed! Full intellisense :-) Get the code here: <https://github.com/GaryWenneker/react-hookz> or pull down the NPM package: <https://www.npmjs.com/package/react-hookz>
 
-<figure class="kg-image-card kg-width-full">![](/assets/img/uploads/2020/02/wu0ZiW2yRSVSE-1-.gif)</figure>
+<figure class="kg-image-card kg-width-full">!\[](/assets/img/uploads/2020/02/wu0ZiW2yRSVSE-1-.gif)</figure>
 
 ## Examples
 
-*   [React Hookz minimal example (like usage above)](https://codesandbox.io/s/react-hookz-global-state-vl5x7)
-*   [React Hookz HOC](https://codesandbox.io/s/react-hookz-hoc-112fy)
-*   [React Hookz Fetch Action](https://codesandbox.io/s/react-hookz-fetch-action-demo-ellw3)
-*   [Using React Hookz in a class component](https://codesandbox.io/s/react-hookz-class-component-hfimj)
+* [React Hookz minimal example (like usage above)](https://codesandbox.io/s/react-hookz-global-state-vl5x7)
+* [React Hookz HOC](https://codesandbox.io/s/react-hookz-hoc-112fy)
+* [React Hookz Fetch Action](https://codesandbox.io/s/react-hookz-fetch-action-demo-ellw3)
+* [Using React Hookz in a class component](https://codesandbox.io/s/react-hookz-class-component-hfimj)
