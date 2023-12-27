@@ -4,7 +4,7 @@ body {
 }
 
 .bar-header {
-  background-color: $primaryDark;
+  background-color: #000;
   padding: rem(10px) rem(15px);
   position: fixed;
   left: 0;
@@ -24,7 +24,7 @@ body {
 
     a {
       display: block;
-      color: $accentDark;
+      color: rgb(47, 129, 247);
       text-decoration: none;
       font-size: rem(32px);
       position: relative;
@@ -91,7 +91,7 @@ body {
     font-size: rem(13px);
     font-weight: bold;
     text-decoration: none;
-    background-color: $themeColor;
+    background-color: rgb(13, 17, 23);
     color: $accentDark;
     padding: rem(5px) rem(10px);
     border-radius: rem(5px);
@@ -105,7 +105,7 @@ body {
 }
 
 body.main-page {
-  background-color: #141414;
+  background-color: rgb(13, 17, 23);
 
   .bar-header {
     background-color: rgba(0, 0, 0, 0.85);
@@ -115,7 +115,7 @@ body.main-page {
 body.light:not(.main-page) {
   .bar-header {
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(0, 0, 0, 0.80);
 
     .icon-search,
     .icon-menu {

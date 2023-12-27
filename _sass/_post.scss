@@ -1,9 +1,10 @@
 .post-page {
-  background-color: #141414;
+  background-color: rgb(13, 17, 23);
   color: #cacaca;
 }
 
 .post {
+  background-color: rgb(13, 17, 23);
   position: relative;
   top: rem(30px);
 
@@ -73,7 +74,7 @@
   iframe {
     @include center(rem(800px));
     @include mainFont(400);
-    color: #fff;
+    color: rgb(230, 237, 243);
     font-size: rem(17px);
     line-height: rem(30px);
     letter-spacing: 0.025rem;
@@ -81,8 +82,8 @@
     margin: rem(20px) auto 0;
 
     @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
+      font-size: rem(17px);
+      line-height: rem(32px);
       margin: rem(29px) auto 0;
     }
   }
@@ -172,11 +173,12 @@
   }
 
   a {
-    color: $themeColor;
+    color: rgb(47, 129, 247);
     text-decoration: none;
 
     &:hover {
-      color: #a9a9a9;
+      color: rgb(47, 129, 247);
+      text-decoration: underline;
     }
   }
 
@@ -241,7 +243,7 @@
   blockquote {
     @include center(rem(730px));
     background-color: rgb(22, 27, 34);
-    color: rgb(47, 129, 247);
+    color: rgb(255, 166, 87);
     border-left: rem(5px) solid $texts;
     padding: 0 rem(10px);
     margin: rem(30px) auto;
@@ -255,8 +257,9 @@
 
     p {
       font-size: rem(17px);
-      color: rgb(47, 129, 247);
+      color: rgb(255, 166, 87);
       margin: 0;
+      padding: 1.5rem;
       @include media(">=sm") {
         font-size: rem(20px);
       }
@@ -377,12 +380,13 @@
 
       a {
         font-weight: normal;
-        color: $primaryDark;
+        color: rgb(47, 129, 247);
         text-decoration: none;
         transition: all 0.3s;
 
         &:hover {
-          color: rgba(0, 0, 0, 0.5);
+          color: rgb(47, 129, 247);
+          text-decoration: underline;
           img {
             -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
@@ -643,7 +647,7 @@
 
     a {
       font-size: rem(14px);
-      color: $primaryDark;
+      color: rgb(47, 129, 247);
       display: inline-block;
       border: 1px solid $primaryDark;
       border-radius: rem(20px);
@@ -657,7 +661,8 @@
       }
 
       &:hover {
-        color: $accentDark;
+        color: rgb(47, 129, 247);
+        text-decoration: underline;
         background-color: $primaryDark;
       }
     }

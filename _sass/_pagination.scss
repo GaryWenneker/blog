@@ -55,7 +55,7 @@
       align-items: center;
       flex-direction: column;
       background-color: #fff;
-      color: $themeColor;
+      color: rgb(47, 129, 247);
       padding: 0 rem(15px);
       border: 1px solid $themeColor;
       border-radius: 5px;
@@ -69,6 +69,8 @@
       &:hover {
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
+        color: rgb(47, 129, 247);
+        text-decoration: underline;
       }
 
       .arrow {

@@ -1,7 +1,9 @@
 .home {
+  
   @include mainFont(400);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(13, 17, 23);
   padding-top: rem(80px);
 
   @include media(">=sm") {
@@ -63,6 +65,10 @@
     z-index: 2;
     transform: scale(1.1);
 
+    h2.post-title {
+      color:rgb(255, 166, 87);
+    }
+
     img {
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
@@ -102,7 +108,8 @@
     padding: 0 rem(15px);
 
     a {
-      color: $accentDark;
+      color: #fff;
+      text-decoration: none;
     }
   }
 
@@ -140,17 +147,18 @@
       height: rem(30px);
       line-height: rem(26px);
       color: $accentDark;
+      background-color: rgb(33, 38, 45);
       padding: 0 rem(10px);
-      border: 1px solid $accentDark;
+      border: 1px solid rgba(240, 246, 252, 0.1);
       border-radius: 15px;
       display: inline-block;
       margin: 0 rem(10px) rem(10px) 0;
       z-index: 50;
 
       &:hover {
-        color: $primaryDark;
-        background: $accentDark;
-        border-color: $accentDark;
+        color: rgb(255, 166, 87);
+        background:   rgb(70, 74, 80);
+        border-color: rgb(70, 74, 80);
       }
     }
 
@@ -208,6 +216,7 @@
 
         svg {
           width: rem(48px);
+          stroke: rgb(255, 166, 87);
         }
       }
     }

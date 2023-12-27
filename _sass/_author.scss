@@ -1,5 +1,5 @@
 .author {
-  background: $lightGray;
+  background: rgb(33, 38, 45);
   display: table;
   width: 100%;
   padding: rem(40px) 0;
@@ -65,7 +65,7 @@
     a {
       @include mainFont();
       text-decoration: none;
-      color: black;
+      color: rgb(47, 129, 247);
       font-size: rem(30px);
 
       @include media(">=sm") {
@@ -73,7 +73,8 @@
       }
 
       &:hover {
-        color: $texts;
+        color: rgb(47, 129, 247);
+        text-decoration: underline;
       }
     }
   }

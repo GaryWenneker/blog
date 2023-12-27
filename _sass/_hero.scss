@@ -70,6 +70,10 @@
 
     .buttons {
       margin-top: rem(50px);
+
+      svg {
+        stroke: rgb(255, 166, 87);
+      }
     }
 
     .button {
@@ -88,8 +92,13 @@
       }
 
       &:hover {
+        color: black;
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2);
+
+        svg {
+          stroke: black;
+        }
       }
 
       svg {
@@ -98,6 +107,7 @@
         margin-right: rem(10px);
         vertical-align: middle;
         color: $themeColor;
+        stroke: rgb(255, 166, 87);
       }
 
       span {

@@ -105,12 +105,13 @@
 
           a {
             font-weight: normal;
-            color: $primaryDark;
+            color: rgb(47, 129, 247);
             text-decoration: none;
             transition: all 0.3s;
 
             &:hover {
-              color: rgba(0, 0, 0, 0.5);
+              color: rgb(47, 129, 247);
+              text-decoration: underline;
 
               img {
                 -webkit-filter: grayscale(100%);

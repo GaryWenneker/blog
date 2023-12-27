@@ -58,10 +58,10 @@ And that's what I did. `useState` manages state within your component and does n
 
 React Hookz can be set up with just a few lines of code:
 
-```
+{% highlight javascript %}
     const useReactHookz = ReactHookz(React, initialState, actions);
     export default useReactHookz;
-```
+{% endhighlight %}
 
 the `initialState` can be any object and the `actions` is a class with functions changing that state. React is the imported React namespace and passed through to React Hookz.
 
@@ -71,7 +71,7 @@ the `initialState` can be any object and the `actions` is a class with functions
 
 ### Actions example
 
-```js
+{% highlight javascript %}
     export interface IActions {
       addToCounter: (amount: number) => void;
     }
@@ -100,7 +100,7 @@ the `initialState` can be any object and the `actions` is a class with functions
     };
 
     export default useReactHookz(React, initialState, actions);
-```
+{% endhighlight %}
 
 If you have been working a lot with React you may notice that setting a state with React Hooks compared to the old way does not accept a callback function. Setting state with React Hooks is asynchronous which means it can be hard when using a glbal context.
 
@@ -108,7 +108,7 @@ React Hookz on the other hand allows you to provide a callback function!
 
 ### Component example
 
-```js
+{% highlight javascript %}
     import React from "react";
     import ReactHookz from "react-hookz";
     import { renderTime } from "../utils/index";
@@ -135,7 +135,7 @@ React Hookz on the other hand allows you to provide a callback function!
     };
 
     export default Counter;
-```
+{% endhighlight %}
 
 The greatest of it all is that it all is fully typed! Full intellisense :-) Get the code here: <https://github.com/GaryWenneker/react-hookz> or pull down the NPM package: <https://www.npmjs.com/package/react-hookz>
 
