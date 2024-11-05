@@ -2,7 +2,7 @@
 layout: post
 title: 'How to work with Git: Left Git or right Git?'
 description: >-
-  Learn how to build a Sitecore JSS  application that uses GraphQL services.
+  An easier way of within with git.
 date: 2018-09-10 08:21:12.000000000 +01:00
 image: >-
   https://images.unsplash.com/photo-1415356838286-df6fd593e8b3?ixlib&#x3D;rb-0.3.5&amp;q&#x3D;80&amp;fm&#x3D;jpg&amp;crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;w&#x3D;1080&amp;fit&#x3D;max&amp;ixid&#x3D;eyJhcHBfaWQiOjExNzczfQ&amp;s&#x3D;1df6012e22d021f19c544e616f90caf1
