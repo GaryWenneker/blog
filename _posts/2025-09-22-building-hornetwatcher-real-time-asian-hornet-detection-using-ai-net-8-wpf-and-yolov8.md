@@ -12,6 +12,8 @@ description: Asian hornets (Vespa velutina) pose a significant threat to native
   modern .NET 8 WPF UI, YOLOv8 object detection, PostgreSQL data persistence,
   and a sophisticated learning workflow to create a professional-grade wildlife
   monitoring solution.
+image: /assets/img/uploads/unnamed-10-.png
+optimized_image: /assets/img/uploads/unnamed-10-.png
 category: "{{slug}}"
 tags:
   - AI
