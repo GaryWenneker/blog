@@ -21,7 +21,7 @@ tags:
   - DOTNET
   - python
 author: garywenneker
-paginate: false
+paginate: true
 ---
 ## How a Tiny Flying Terror Sparked a Full-Stack Development Adventure
 
