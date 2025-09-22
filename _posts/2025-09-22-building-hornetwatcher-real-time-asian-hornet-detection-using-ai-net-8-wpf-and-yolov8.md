@@ -14,7 +14,7 @@ description: Asian hornets (Vespa velutina) pose a significant threat to native
   monitoring solution.
 image: /assets/img/uploads/unnamed-10-.png
 optimized_image: /assets/img/uploads/unnamed-10-.png
-category: "{{slug}}"
+category: blog
 tags:
   - AI
   - NodeJS
